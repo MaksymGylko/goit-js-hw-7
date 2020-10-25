@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 990px;
+    justify-content: space-between;
+}
+
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+  outline: none;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
